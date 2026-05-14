@@ -1,3 +1,10 @@
+// connection configuration as can use any of pin as i just used 16/17 as 
+//     vcc ----- 3.3v
+//     gnd ----- gnd
+//     sda ------ 16 (RX0)
+//     scl ------ 17(TX0)
+
+
 #include <Arduino.h>
 #include <Wire.h>
 #include <U8g2lib.h>
